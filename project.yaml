@@ -1,0 +1,74 @@
+# .project metadata for Envoy
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Add adopters list (ADOPTERS.md)
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "envoy"
+name: "Envoy"
+description: "Envoy is an open source edge and service proxy, designed for cloud-native applications"
+type: "project"
+project_lead: "mattklein123" # TODO: AUTO-DETECTED — please verify
+slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+  - name: "#contact"
+    primary: true
+  - name: "#envoy-mobile"
+
+maturity_log:
+  - phase: "graduated"
+    date: "2017-09-13T00:00:00Z"
+    issue: "https://github.com/cncf/toc/pull/167" # TODO: AUTO-DETECTED — please verify
+
+repositories: # TODO: AUTO-DETECTED primary — please verify
+  - url: "https://github.com/envoyproxy/envoy"
+    primary: true
+    # tags: [core, sig-apps] # Optional
+
+website: "https://www.envoyproxy.io"
+
+artwork: "https://landscape.cncf.io/logos/envoy.svg"
+
+# TODO: Add ADOPTERS.md if your project tracks adopters
+# adopters:
+#   path: "https://github.com/envoyproxy/envoy/blob/main/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "envoyproxy/envoy"
+
+social:
+  twitter: "https://twitter.com/envoyproxy"
+
+security:
+  policy:
+    path: "https://github.com/envoyproxy/envoy/blob/main/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/envoyproxy/envoy/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/envoyproxy/envoy/blob/main/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/envoyproxy/envoy/blob/main/CODE_OF_CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/envoyproxy/envoy/blob/main/LICENSE"
+  identity_type:
+    has_dco: true # AUTO-DETECTED — please verify
+    has_cla: false # AUTO-DETECTED — please verify
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/envoyproxy/envoy/blob/main/README.md"
+
+landscape:
+  category: "Orchestration & Management"
+  subcategory: "Service Proxy"
+
+# CLOMonitor Score: 93/100
+# Documentation: 97 | License: 94 | Best Practices: 79 | Security: 95
